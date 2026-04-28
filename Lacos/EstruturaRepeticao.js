@@ -24,3 +24,24 @@ let contador = 10
     contador --
   }
   console.log("Foguete lançado! 🚀")
+
+
+/* ESTRUTURA DE REPETIÇÃO (WHILE):
+  
+  O 'while' (enquanto) funciona como um loop que repete um bloco de código 
+  sempre que a condição entre parênteses for VERDADEIRA.
+  
+  1. CONDIÇÃO (contador >= 0): O código verifica se o número ainda é maior 
+     ou igual a zero antes de cada volta.
+     
+  2. DECREMENTO (contador--): Em vez de somar, aqui nós subtraímos 1 a cada 
+     repetição. É o que faz a contagem diminuir (10, 9, 8...).
+     
+  3. SAÍDA DO LOOP: Quando o contador chega a -1, a condição se torna 
+     FALSA, o loop para e o programa segue para a próxima linha fora das chaves.
+     
+  4. LÓGICA DE CONTROLE: Note que, nos exemplos acima, o controle mudou:
+     - No caso da coxinha, o valor subia (incremento).
+     - No caso do Corbucci, subia de 10 em 10 (estomagoCorbucci + 10).
+     - No foguete, o valor desce (decremento), mostrando que o loop é flexível.
+*/
